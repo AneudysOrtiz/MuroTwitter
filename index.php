@@ -6,8 +6,8 @@ header('Location: login.php');
 ?>
 <?php include 'header.php'; ?>
 
-<a href="logout.php" id="log_out">Logout</a>
-<span id="welcome">Welcome <?=$_SESSION['username']?></span>
+<a href="logout.php" id="log_out">Salir</a>
+<span id="welcome">Bienvenido <?=$_SESSION['username']?></span>
     <div class="grid_12"><br>
 <?php
 //instanciamos la clase facebook y creamos el avatar
